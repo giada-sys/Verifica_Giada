@@ -1,0 +1,52 @@
+﻿body {
+
+    background-color:lightblue;
+    font-family: Arial;
+}
+h1, h3 {
+    text-align: center;
+    overflow: hidden;
+}
+ul {
+    padding: 0px;
+    list-style-type: none;
+}
+.menu {
+    margin: 0 auto;
+    width: 360px;
+    padding: 15px 15px;
+    background-color: lightskyblue;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.item_menu {
+    float: left;
+}
+.a-menu {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0px 14px;
+}
+.a-menu:hover {
+        color: white;
+        font-size: 17px
+}
+iframe{
+    margin: 0 auto;
+}
+footer{
+    text-align:center;
+}
+.backButton{
+    border-radius: 5px;
+    background-color: white;
+    padding:10px;
+    overflow:hidden;
+}
+mark{
+    background-color: lightblue;
+    font-weight: bold;
+}
+

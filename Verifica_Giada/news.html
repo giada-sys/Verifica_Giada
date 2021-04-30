@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js">
+    </script>
+</head>
+<body>
+
+    <!-- Bottone per tornare nella home -->
+    <button class="backButton" onclick="location.href = 'home.html';">Home</button>
+
+    <h3>News</h3>
+
+    <div align="center">
+        <form>
+            <input id="nome" type="text" placeholder="Inserire il nome" onchange="Change()" />
+
+            <div>
+                <input type="button" id="buttonSubscribe" onclick="Subscribe()" value="Iscriviti" disabled />
+                <input type="button" value="Disiscriviti" id="buttonUnsubscribe" onclick="Unsubscribe()" />
+            </div>
+
+        </form>
+    </div>
+    <br />
+    <br />
+    <footer id="foot-sotto">
+        <p>Harry Potter | <a href="home.html">Home</a> | <a href="schedaTecnica.html">Scheda Tecnica</a> | <a href="Attori.html">Attori</a> | <a href="news.html">News</a> | Copyright &copy; GIADA</p>
+    </footer>
+</body>
+</html>
